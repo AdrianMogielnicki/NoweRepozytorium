@@ -46,7 +46,7 @@ class Program
 
             if (!File.Exists(nazwaPliku))
             {
-                Console.WriteLine("Plik nie istnieje!");
+                Console.WriteLine("Plik nie istnieje!"); Console.Writeline("Podaj inna nazwe pliku");
                 return;
             }
 
