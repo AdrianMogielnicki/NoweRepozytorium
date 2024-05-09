@@ -92,6 +92,6 @@ class Program
         {
             Console.WriteLine($"Wystąpił błąd: {ex.Message}");
         }
-    }
+    } // Ukończony program
 }
 
